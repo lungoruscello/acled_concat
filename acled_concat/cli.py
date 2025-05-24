@@ -5,7 +5,8 @@ from pathlib import Path
 
 import pandas as pd
 from tqdm.auto import tqdm
-from iso_map import ISO_MAP
+
+from .iso_map import ISO_MAP
 
 ROOT_DIR = Path(__file__).parent
 
