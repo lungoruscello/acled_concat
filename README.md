@@ -20,7 +20,7 @@ The final output is a single deduplicated CSV file containing all events, ready 
 
 ## Installation
 
-Installation is best done using [`pipx`](https://pipxproject.github.io/pipx/). 
+Installation is best done using [`pipx`](https://pipx.pypa.io/stable/). 
 This allows you to run the script as a command-line tool without polluting your global Python environment or 
 having to manage virtual environments manually.
 
