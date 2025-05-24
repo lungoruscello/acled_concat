@@ -1,3 +1,10 @@
+"""
+A simple command-line tool to consolidate several ACLED files into one dataset.
+
+Author: S. Langenbach (ETHZ)
+Licence: MIT
+"""
+
 import argparse
 import logging
 import re
