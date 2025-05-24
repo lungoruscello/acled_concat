@@ -1,0 +1,18 @@
+[project]
+name = "acled-concat"
+version = "0.0.1"
+description = "Consolidate several ACLED files into one dataset."
+authors = [{name = "S. Langenbach"}]
+dependencies = ["pandas", "tqdm"]
+requires-python = ">=3.9"
+
+[project.scripts]
+acled-concat = "acled_concat.cli:main"
+
+[tool.setuptools]
+packages = ["acled_concat"]
+include-package-data = true
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
